@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.app-header .container {
+  max-width: 100%;
+  background-color: #456bd9;
+  color: #ffdb5c;
+  height: 90px;
+}
+
+.wrapper-infor .img-user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.wrapper-infor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-infor .name-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-user .widget-subheading {
+  color: #ccc;
+  font-size: medium;
+}
+
+.main-content .intro-section {
+  color: #000;
+  font-size: large;
+}
+
+.welcome-part {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome-part::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/banner/banner-profice.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.welcome-part .welcome-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.welcome-part .container {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+}
+
+.welcome-part .btn-edit-profile button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #456bd9;
+  color: #ffdb5c;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.welcome-part .btn-edit-profile button:hover {
+  padding: 15px 25px;
+  background-color: #ffdb5c;
+  color: #456bd9;
+}
+
+.main-content {
+  padding-top: 150px;
+  color: #000;
+  padding-left: 20px;
+}
+
+.main-content .name-user {
+  padding-bottom: 10px;
+}
+
+.main-content .intro-section {
+  width: 500px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.account-details {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.account-details .container {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+}
+
+.card-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-information .img-user img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #456bd9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-input .input-content {
+  width: 100%;
+}
+
+.wrapper-input .input-content label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.wrapper-input .input-content input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.wrapper-input .input-content input:focus {
+  border-color: #456bd9;
+  outline: none;
+  box-shadow: 0 0 5px rgba(69, 107, 217, 0.5);
+}
+
+.footer .container {
+  max-width: 100%;
+  background-color: #456bd9;
+}
+
+.footer .logo {
+  padding: 20px 20px;
+}
+
+.footer .logo i {
+  padding-right: 50px;
+}
+
+.footer-content {
+  color: #ffdb5c;
+}
+
+.footer-content1 {
+  width: 100px;
+}
+
+.footer-bottom {
+  color: #ffdb5c;
+  text-align: center;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #ffdb5c;
+  text-align: center;
+}
+
+.footer-bottom a:hover {
+  color: red;
+}
