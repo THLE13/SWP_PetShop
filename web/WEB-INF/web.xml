@@ -36,6 +36,37 @@
         <servlet-name>CustomerServlet</servlet-name>
         <url-pattern>/CustomerServlet</url-pattern>
     </servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminProductServlet</servlet-name>
+    <servlet-class>controller.AdminProductServlet</servlet-class>
+</servlet>
+<!--<servlet-mapping>
+    <servlet-name>AdminProductServlet</servlet-name>
+    <url-pattern>/adminProduct</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+    <servlet-name>AdminProductServlet</servlet-name>
+    <url-pattern>/addProduct</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>AdminProductServlet</servlet-name>
+    <url-pattern>/deleteProduct</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>AdminProductServlet</servlet-name>
+    <url-pattern>/editProduct</url-pattern>
+</servlet-mapping>-->
+<servlet-mapping>
+    <servlet-name>AdminProductServlet</servlet-name>
+    <url-pattern>/adminProduct</url-pattern>
+    <url-pattern>/addProduct</url-pattern>
+    <url-pattern>/editProduct</url-pattern>
+    <url-pattern>/deleteProduct</url-pattern>
+    <url-pattern>/loadInforProduct</url-pattern>
+</servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
